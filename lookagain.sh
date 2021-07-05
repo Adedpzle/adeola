@@ -1,3 +1,3 @@
 #!/bin/bash
- find . -name '*.sh'
-ls | grep -v .sh
+find . -name '*.sh' | sed 's#.*/##' | cut -d *.* -f1 
+
