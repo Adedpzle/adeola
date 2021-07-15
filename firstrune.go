@@ -1,9 +1,5 @@
-package main() {
-	str := "Hello" "Salut" "Ola"
-	var s rune
-	for i, c := range str {
-	  if i == 2 {
-		s = c
-	  }
+package piscine() {
+	func FirstRune(s string) rune {
+		Ruun := []rune(s)
+		return Ruun[0]
 	}
-  }
