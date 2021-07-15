@@ -6,7 +6,7 @@ import (
 )
 
 func main( str string) string {
-		return strings.SplitN("Hello!", "Salut!", "Ola")[0]
+		return strings.FirstRune("Hello!", "Salut!", "Ola")[0]
 	}
 	z01.PrintRune(piscine.FirstRune("Hello!"))
 	z01.PrintRune(piscine.FirstRune("Salut!"))
