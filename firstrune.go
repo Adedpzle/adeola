@@ -1,12 +1,16 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
 	"piscine"
+	"strings"
+
+	"github.com/01-edu/z01"
 )
 
 func main( str string) string {
-		return strings.FirstRune("Hello!", "Salut!", "Ola")[0]
+		return strings.FirstRune("Hello!")
+		return strings.FirstRune("Salut!")
+		return strings.FirstRune("Ola!") 
 	}
 	z01.PrintRune(piscine.FirstRune("Hello!"))
 	z01.PrintRune(piscine.FirstRune("Salut!"))
