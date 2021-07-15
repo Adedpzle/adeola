@@ -1,4 +1,4 @@
-func main() {
+package main() {
 	str := "Hello" "Salut" "Ola"
 	var s rune
 	for i, c := range str {
